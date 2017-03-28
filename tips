@@ -1,0 +1,28 @@
+# Prepares
+
+sudo apt-get install vim curl wget build-essential autoconf automake
+
+
+# Install Git
+
+export GIT_PATH="$(mktemp -d)"
+curl -fsSL "https://github.com/git/git/archive/v2.9.3.tar.gz" | tar -xzC "$GIT_PATH" --strip-components=1
+cd "$GIT_PATH"
+make configure
+./configure --prefix=/usr
+make all doc info
+sudo make install install-doc install-html install-info
+cp "$GIT_PATH"/contrib/completion/git-completion.bash ~/.git-completion.bash
+rm -rf "$GIT_PATH"
+echo "source ~/.git-completion.bash >> ~/.bashrc"
+
+
+# Install Vim Vundle
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+
+# Install Docker
+
+curl -sSL https://get.docker.com/ | sh
+
