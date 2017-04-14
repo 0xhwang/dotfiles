@@ -46,6 +46,9 @@ set nocursorline                " Do not highlight cursor (speeds up highlightin
 set lazyredraw                  " Wait to redraw
 set tabstop=4
 set shiftwidth=4
+" set expandtab					" expand the tab to space
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list						" show tab and space in different way
 set statusline=%f
 set statusline+=%=
 set statusline+=%y\ %l/%L
