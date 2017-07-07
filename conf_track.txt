@@ -1,0 +1,17 @@
+Conference		2017		
+Short Name	Full Name	Deadline	Conference	URL
+HPCA	IEEE International Symposium on High-Performance Computer Architecture	-	2017/2/4	-
+NDSS	Network and Distributed System Security Symposium		2017/2/26	https://www.internetsociety.org/events/ndss-symposium/ndss-symposium-2017/ndss-2017-programme
+ASPLOS	ACM International Conference on Architectural Support for Programming Languages and Operating Systems	-	2017/4/8	http://novel.ict.ac.cn/ASPLOS2017/
+HotOS	Hot Topics in Operating Systems		2017/5/7	https://www.sigops.org/hotos/hotos17/
+SP	IEEE Symposium on Security and Privacy		2017/5/22	http://www.ieee-security.org/TC/SP2017/
+ISCA	International Symposium on Computer Architecture	-	2017/6/24	http://isca17.ece.utoronto.ca/doku.php
+HASP	Hardware and Architectural Support for Security and Privacy		2017/6/25	http://caslab.csl.yale.edu/workshops/hasp2017/
+HotCloud	USENIX Workshop on Hot Topics in Cloud		2017/7/10	https://www.usenix.org/conference/hotcloud17
+ATC	USENIX Annual Technical Conference		2017/7/12	https://www.usenix.org/node/195839
+Security	USENIX Security Symposium		2017/8/16	https://www.usenix.org/conference/usenixsecurity17
+MICRO	IEEE/ACM International Symposium on Microarchitecture	-	2017/10/14	https://www.microarch.org/micro50/
+SOSP	ACM Symposium on Operating Systems Principles		2017/10/28	https://www.sigops.org/sosp/sosp17/
+CCS	ACM Conference on Computer and Communications Security		2017/10/30	https://www.sigsac.org/ccs/CCS2017/
+OSDI	USENIX Symposium on Operating Systems Design and Implementation	-	-	-
+
